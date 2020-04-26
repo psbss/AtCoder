@@ -11,6 +11,10 @@
 			"body":[
 				"#include <bits/stdc++.h>",
 				"using namespace std;",
+				"",
+				"int main()",
+				"{",
+				"}",
 			],
 	"description": "init AtCoder cpp file"
 	}
