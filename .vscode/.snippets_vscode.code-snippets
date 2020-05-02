@@ -30,7 +30,7 @@
   },
   "intcin": {
     "prefix": "intcin",
-    "body": ["int $1", "cin >> $1;"],
+    "body": ["int $1;", "cin >> $1;"],
     "description": "int and cin"
   }
 }
