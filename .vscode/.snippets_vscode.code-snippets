@@ -7,15 +7,25 @@
 	// Placeholders with the same ids are connected.
 
 	"initcpp":{
-			"prefix": "#include",
-			"body":[
-				"#include <bits/stdc++.h>",
-				"using namespace std;",
-				"",
-				"int main()",
-				"{",
-				"}",
-			],
+		"prefix": "#include",
+		"body":[
+			"#include <bits/stdc++.h>",
+			"using namespace std;",
+			"",
+			"int main()",
+			"{",
+			"}",
+		],
 	"description": "init AtCoder cpp file"
-	}
+	},
+	"forin": {
+		"prefix": "forin",
+		"body": [
+			"int N, ary[$1];",
+  		"cin >> N;",
+  		"for (int i = 0; i < N; i++)",
+			"cin >> ary[i];",
+		],
+		"description": "cin whth for roop"
+	},
 }
