@@ -7,5 +7,5 @@ int main()
   cin >> A >> B >> N;
   long long x = min(B - 1, N);
   int ans = (A * x) / B - A * (x / B);
-  cout << (A * x) / B - A * (x / B) << endl;
+  cout << ans << endl;
 }
